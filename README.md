@@ -1,5 +1,5 @@
 # Asp Net Core CQRS
-## -CQRS padrão ed arquitetura
-## -Mediator para desaclopamento
-## -RabbitMQ pra mensageria
-## -Redis pra cache
+## 1- CQRS padrão de arquitetura
+## 2- Mediator para desaclopamento
+## 3- RabbitMQ pra mensageria
+## 4- Redis pra cache
