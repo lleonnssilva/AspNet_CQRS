@@ -1,0 +1,6 @@
+@AspNet_CQRS.MinhaApi_HostAddress = http://localhost:5053
+
+GET {{AspNet_CQRS.MinhaApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

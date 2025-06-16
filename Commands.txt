@@ -1,0 +1,15 @@
+https://www.youtube.com/watch?v=2JKInCIxS9A&list=PLJ4k1IC8GhW0lLT4Hs2rD8veMJyLGbrJ3&index=4
+
+//connection
+"ConnectionStrings": {
+    "DefaultConnection": "Server=DESKTOP-SPSJDRK\\SQLEXPRESS;Database=ASP_NET_CQRS;Trusted_Connection=True;TrustServerCertificate=True;"
+  },
+
+ //migrations
+dotnet ef migrations add inicial --project AspNet_CQRS.Infrastructure -s AspNet_CQRS.Api -c AppDbContext --verbose
+dotnet ef database update inicial --project AspNet_CQRS.Infrastructure -s AspNet_CQRS.Api -c AppDbContext --verbose
+
+//redis
+docker run --name local-redis -p 6379:6379 -d redis
+
+Microsoft.Extensions.Caching.StackExchangeRedi
