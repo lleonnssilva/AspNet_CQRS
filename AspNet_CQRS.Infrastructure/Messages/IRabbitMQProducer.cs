@@ -1,4 +1,4 @@
-﻿namespace AspNet_CQRS.Application.Members.Messages
+﻿namespace AspNet_CQRS.Infrastructure.Messages
 {
     public interface IRabbitMQProducer
     {

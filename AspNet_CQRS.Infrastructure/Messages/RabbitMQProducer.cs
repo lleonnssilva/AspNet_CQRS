@@ -1,9 +1,9 @@
-﻿using System.Text.Json;
-using System.Text;
+﻿using Microsoft.Extensions.Configuration;
 using RabbitMQ.Client;
-using Microsoft.Extensions.Configuration;
+using System.Text;
+using System.Text.Json;
 
-namespace AspNet_CQRS.Application.Members.Messages
+namespace AspNet_CQRS.Infrastructure.Messages
 {
     public class RabbitMQProducer : IRabbitMQProducer
     {

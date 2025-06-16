@@ -1,12 +1,10 @@
-﻿using AspNet_CQRS.Application.Members.Messages;
-using AspNet_CQRS.Application.Members.Notifications;
+﻿using AspNet_CQRS.Application.Members.Notifications;
 using AspNet_CQRS.Domain.Astractions;
 using AspNet_CQRS.Domain.Entities;
+using AspNet_CQRS.Infrastructure.Messages;
 using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.Caching.Distributed;
-using Microsoft.Extensions.Caching.StackExchangeRedis;
-using System.ComponentModel.DataAnnotations;
 using System.Text.Json;
 
 namespace AspNet_CQRS.Application.Members.Commands

@@ -1,7 +1,7 @@
-﻿using AspNet_CQRS.Application.Members.Messages;
-using AspNet_CQRS.Application.Members.Validations;
+﻿using AspNet_CQRS.Application.Members.Validations;
 using AspNet_CQRS.Domain.Astractions;
 using AspNet_CQRS.Infrastructure.Context;
+using AspNet_CQRS.Infrastructure.Messages;
 using AspNet_CQRS.Infrastructure.Repositories;
 using FluentValidation;
 using Microsoft.Data.SqlClient;
